@@ -34,7 +34,7 @@ git commit -m "Initial commit"
 
 ### 2. Создайте репозиторий на GitHub
 
-Создайте новый репозиторий с именем **CortelVPN** (имя должно совпадать с `base` в `vite.config.js`).
+Создайте новый репозиторий с именем **kakorel.github.io** — это будет ваш пользовательский сайт на GitHub Pages.
 
 ### 3. Задеплойте
 
@@ -51,19 +51,23 @@ npm run deploy
 1. Зайдите в настройки репозитория на GitHub
 2. Перейдите в раздел **Pages**
 3. В источнике выберите **gh-pages** ветку
-4. Через 1-2 минуты сайт будет доступен по ссылке: `https://<ваш-username>.github.io/CortelVPN/`
+4. Через 1-2 минуты сайт будет доступен по ссылке: `https://kakorel.github.io/`
 
 ## 📁 Структура проекта
 
 ```
-CortelVPNWebsite/
+kakorel.github.io/
 ├── index.html              # HTML шаблон
 ├── package.json            # Зависимости и скрипты
 ├── vite.config.js          # Конфигурация Vite
+├── public/
+│   ├── logo.png            # Логотип
+│   ├── robots.txt          # Для поисковиков
+│   └── sitemap.xml         # Карта сайта
 ├── src/
 │   ├── main.js             # Точка входа Vue
-│   └── App.vue             # Главный компонент лендинга
-├── logo.png                # Логотип
+│   ├── App.vue             # Главный компонент
+│   └── components/         # Vue компоненты
 └── dist/                   # Собранный проект (для деплоя)
 ```
 

@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap для поисковиков
-Sitemap: https://kakorel.github.io/CortelVPN/sitemap.xml
+Sitemap: https://kakorel.github.io/sitemap.xml
