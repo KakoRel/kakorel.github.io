@@ -1,0 +1,6 @@
+# Разрешаем индексацию всем поисковикам
+User-agent: *
+Allow: /
+
+# Sitemap для поисковиков
+Sitemap: https://cortelvpn.github.io/CortelVPN/sitemap.xml
